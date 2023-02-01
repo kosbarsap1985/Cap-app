@@ -45,7 +45,7 @@ annotate service.Books with @(
                 $Type             : 'UI.DataField',
                 Value             : price,
                 ![@UI.Importance] : #High
-            }
+            },
         ],
         PresentationVariant : {SortOrder : [{
             $Type      : 'Common.SortOrderType',

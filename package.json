@@ -59,6 +59,12 @@
         "requires": {
             "db": {
                 "kind": "hana-cloud"
+            },
+            "CPIDestination": {
+                "kind": "rest",
+                "credentials": {
+                    "destination": "CPI_DESTINATION"
+                }
             }
         },
         "hana": {
